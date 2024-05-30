@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import About1 from "/src/assets/AboutMe1.png";
-import About2 from "/src/assets/AboutMe1.png"; // Ensure you have different images
+import About2 from "/src/assets/EvonsysQA.svg"; // Ensure you have different images
 import About3 from "/src/assets/AboutMe1.png"; // Ensure you have different images
-import Skills from "/src/assets/Skills.png";
+import Skills from "/src/assets/Skills.svg";
 
 function AboutMe() {
   const images = [About1, About2, About3];
@@ -15,7 +15,7 @@ function AboutMe() {
   return (
     <div className="relative w-screen pt-15 md:min-w-[945px] flex flex-col items-center text-white">
       {/* Row 1: Heading */}
-      <div className="w-full flex flex-col items-start px-8 md:px-16 pt-8 md:pt-16">
+      <div className="w-full flex flex-col items-start px-8 md:px-16  md:pt-16">
         <h1 className="text-3xl font-roboto font-regular">About me</h1>
         <div className="w-[50%] h-px bg-white mt-2"></div>
       </div>
@@ -52,9 +52,9 @@ function AboutMe() {
         </div>
       </div>
       {/* Row 4: Skills.png */}
-      <div className="w-full flex justify-center mt-10">
+      <div className="w-full flex justify-center item-center mt-10 ">
         <img
-          className="w-full md:w-[60%] object-cover"
+          className="w-[80%] md:w-[60%] object-cover"
           src={Skills}
           alt="Skills"
         />

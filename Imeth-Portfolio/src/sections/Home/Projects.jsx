@@ -19,8 +19,8 @@ function Projects() {
             alt="Project"
           />
         </div>
-        <div className="w-full md:w-[50%] flex flex-col items-start mt-6 md:mt-0">
-          <p className="text-xl font-light text-justify leading-[250%] mt-6">
+        <div className="w-full md:w-[50%] flex flex-col items-end mt-6 md:mt-0 pl-8">
+          <p className="text-xl font-light text-justify leading-[250%] mt-6 ">
             I have worked on many projects covering Java, Python, Reactjs,
             Tailwind CSS, HTML5, CSS, JavaScript languages. Explore more.
           </p>

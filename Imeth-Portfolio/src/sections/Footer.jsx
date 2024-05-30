@@ -23,7 +23,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={GitHub} alt="GitHub" className="w-8 h-8 md:w-8 md:h-8" />
+            <img src={GitHub} alt="GitHub" className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a
             href="http://www.linkedin.com/in/imeth-pathirana"

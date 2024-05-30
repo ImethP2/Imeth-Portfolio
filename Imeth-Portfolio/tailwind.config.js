@@ -2,10 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pontano: ['Pontano Sans', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      
+    },
   },
   plugins: [],
 }
