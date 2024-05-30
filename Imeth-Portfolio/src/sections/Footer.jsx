@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Gmail from "/src/assets/Gmail.svg";
 import LinkedIn from "/src/assets/LinkedIn.svg";
 import GitHub from "/src/assets/GitHub.svg";
+import Whatsapp from "/src/assets/WhatsAppw.svg";
 
 function Projects() {
   return (
@@ -38,6 +39,17 @@ function Projects() {
           </a>
           <a href="mailto:imethp2@gmail.com">
             <img src={Gmail} alt="Gmail" className="w-8 h-8 md:w-8 md:h-8" />
+          </a>
+          <a
+            href="https://wa.me/message/TQ32HIJSXFCBN1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={Whatsapp}
+              alt="LinkedIn"
+              className="w-8 h-8 md:w-8 md:h-8"
+            />
           </a>
         </div>
       </div>

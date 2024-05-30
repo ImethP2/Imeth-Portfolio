@@ -13,10 +13,10 @@ const Navbar = ({ onNavigate }) => {
 
   return (
     <nav className="bg-[#999D9E] px-4 fixed w-full z-10">
-      <div className="container mx-auto flex justify-between items-center py-2">
-        <div className="flex-shrink-0">
+      <div className="container mx-auto flex justify-between items-center py-1">
+        <div className="flex-shrink-0 pt-1">
           <img
-            className="w-24 md:w-[50%] h-auto object-contain"
+            className="w-24 md:w-[50%] h-auto object-contain "
             src={imethLogo}
             alt="Logo"
           />

@@ -3,10 +3,11 @@ import Imeth from "/src/assets/imeth.png";
 import LinkedInIcon from "/src/assets/LinkedIn.png";
 import GitHubIcon from "/src/assets/GitHub.png";
 import GmailIcon from "/src/assets/Gmail.png";
+import Whatsapp from "/src/assets/WhatsApp.svg";
 
 function Hero() {
   return (
-    <div className="relative w-full h-[85vh] md:h-[95vh] pt-15 md:min-w-[945px]">
+    <div className="relative w-full md:h-[95vh] pt-15 md:min-w-[945px]">
       {/* Background */}
       <div className="h-40% w-full flex flex-col md:flex-row bg-[#999D9E]">
         {/* Small screens layout */}
@@ -102,6 +103,17 @@ function Hero() {
                     <img
                       src={GmailIcon}
                       alt="Gmail"
+                      className="w-8 h-8 md:w-9 md:h-9"
+                    />
+                  </a>
+                  <a
+                    href="https://wa.me/message/TQ32HIJSXFCBN1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={Whatsapp}
+                      alt="GitHub"
                       className="w-8 h-8 md:w-9 md:h-9"
                     />
                   </a>

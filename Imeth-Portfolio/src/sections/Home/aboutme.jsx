@@ -15,13 +15,15 @@ function AboutMe() {
   return (
     <div className="relative w-screen pt-15 md:min-w-[945px] flex flex-col items-center text-white">
       {/* Row 1: Heading */}
-      <div className="w-full flex flex-col items-start px-8 md:px-16  md:pt-16">
-        <h1 className="text-3xl font-roboto font-regular">About me</h1>
+      <div className="w-full flex flex-col items-start px-8 md:px-16  pt-8 md:pt-16">
+        <h1 className="text-2xl md:text-3xl font-pontano">
+          About me
+        </h1>
         <div className="w-[50%] h-px bg-white mt-2"></div>
       </div>
       {/* Row 2: Description and AboutMe1.png */}
       <div className="w-full flex flex-col md:flex-row items-start justify-between px-8 md:px-16 ">
-        <p className="w-full md:w-[50%] text-xl font-light text-justify leading-[250%] mt-6">
+        <p className="w-full md:w-[50%] text-md md:text-xl font-light text-justify leading-[150%] md:leading-[250%] mt-6 font-pontano">
           A 2nd-year Software Engineering undergraduate student who is
           passionate about programming and problem-solving. Proficient in Java,
           Python, and web development. I possess the technical skills necessary

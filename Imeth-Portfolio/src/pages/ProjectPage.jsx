@@ -5,42 +5,67 @@ import Footer from "../sections/Footer";
 const dummyProjects = [
   {
     id: 1,
-    title: "Java Project",
-    description:
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    language: "Java",
-    image: "/src/assets/javaP.png",
-    github: "https://github.com/your-profile/java-project",
+    title: "SDGP (Group project)",
+    description: `Built a website where rural schools can send seminar requests to the organization. When the organization accepted the request, it will redirect to volunteers.<br><br> 
+    Tech Stack:<br>
+    Front-end - React JS, Tailwind CSS, Back-end - NodeJS<br>
+    API development - ExpressJS<br>
+    Database - MongoDB<br>
+    Authentication methods - Clerk component<br><br>
+    Built a website where rural schools can send seminar requests to the organization. When the organization accepted the request, it will redirect to volunteers.<br><br>
+    Skills: Software Development · Teamwork · Agile Methodologies · Software Testing · React.js · Tailwind CSS · MongoDB · Front-End Development · Web Development · Git · Databases`,
+    language: "React",
+    image: "/src/assets/SDGP.png",
+    github: "https://github.com/ImethP2/SDGP-04",
   },
   {
     id: 2,
-    title: "Python Project",
+    title: "Shopping Platform",
     description:
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    language: "Python",
-    image: "/src/assets/javaP.png",
-    github: "https://github.com/your-profile/python-project",
+      "Shoppng Management System where the owner can add, delete update products. and the user can purchase if the product is in stock, can get particular offers. And I have used JAVA-swing to demonstrate the products list and shopping cart to the user.<br><br> Tech Stack: Java, Java-Swing",
+    language: "Java",
+    image: "/src/assets/Shopping.svg",
+    github: "https://github.com/ImethP2/Shoping-Platform",
   },
   {
     id: 3,
-    title: "React Project",
+    title: "Archie-chatbot",
     description:
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    language: "React",
-    image: "/src/assets/javaP.png",
-    github: "https://github.com/your-profile/react-project",
+      "Developed a simple chatbot using Java and XML with an integration chatgpt API.<br><br> Tech Stack: Java,XML",
+    language: "Java",
+    image: "/src/assets/Chatbot.svg",
+    github: "https://github.com/ImethP2/archie-chatbot",
   },
   {
     id: 4,
-    title: "React Project",
+    title: "CornerKick website (Group Project)",
     description:
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
-    language: "React",
-    image: "/src/assets/javaP.png",
-    github: "https://github.com/your-profile/react-project",
+      "An insightful website about football information. It includes a homepage, quiz, shopping page, gallery and about us page.<br><br> Tech Stack: HTML, CSS, Javascript.",
+    language: "HTML",
+    image: "/src/assets/Football.svg",
+    github: "https://github.com/ImethP2/CornerKick-website",
   },
-  // Add more dummy projects as needed
+  {
+    id: 5,
+    title: "Theatre management System",
+    description:
+      "Using this system user can sucsessfully do these operations, see the available seats, choose ticket type, book seats, cancel booking.",
+    language: "Java",
+    image: "/src/assets/Theatre.svg",
+    github: "https://github.com/ImethP2/theater-management-system",
+  },
+  {
+    id: 6,
+    title: "Exam Management System",
+    description:
+      "This system has 2 users. They are students and lecturers. When the student enters their mark, they can check their grade. The lecturer can enter the marks of all the students and get their grades. Also, lecturers can get an analysis of the grades that students have obtained.<br><br> Tech Stack: Python",
+    language: "Python",
+    image: "/src/assets/Exam.svg",
+    github:
+      "https://github.com/ImethP2/Exam-mark-management-system-using-Python",
+  },
 ];
+
 function ProjectPage() {
   const [selectedLanguage, setSelectedLanguage] = useState("");
   const [selectedProject, setSelectedProject] = useState(null);
@@ -78,6 +103,7 @@ function ProjectPage() {
               <option value="Java">Java</option>
               <option value="Python">Python</option>
               <option value="React">React</option>
+              <option value="HTML">HTML</option>
             </select>
           </label>
         </div>
@@ -95,7 +121,7 @@ function ProjectPage() {
                   alt={project.title}
                   className="w-full h-32 object-cover mb-4 rounded-lg "
                 />
-                <h2 className="text-[#ffffff] text-lg mb-2 pl-4">
+                <h2 className="text-[#ffffff] text-lg mb-2 px-4">
                   {project.title}
                 </h2>
               </div>
@@ -119,7 +145,11 @@ function ProjectPage() {
               alt={selectedProject.title}
               className="w-full h-32 object-cover mb-4"
             />
-            <p>{selectedProject.description}</p>
+            <p
+              className="text-md font-pontano font-normal"
+              dangerouslySetInnerHTML={{ __html: selectedProject.description }}
+            ></p>
+
             <a
               href={selectedProject.github}
               target="_blank"
