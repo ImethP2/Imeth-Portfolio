@@ -12,13 +12,13 @@ function Projects() {
         <div className="w-[100%]  h-px bg-white mt-2"></div>
       </div>
       {/* Row 2: Description and Project.png */}
-      <div className="w-full flex flex-col md:flex-row justify-between px-8 md:px-16 ">
-        <div className="w-full md:w-[50%] flex flex-col items-start mt-6 md:mt-0">
-          <p className="text-lg font-light text-justify leading-[250%]">
+      <div className="w-full flex flex-col md:flex-row justify-center md:justify-between md:px-16 ">
+        <div className="w-[100%] md:w-[50%] flex flex-col md:items-start  items-center mt-2 md:mt-0">
+          <p className="text-lg font-light text-justify leading-[250%] ">
             2024@Edition
           </p>
         </div>
-        <div className="w-full md:w-[50%] flex justify-end items-end mt-6 md:mt-0 space-x-5">
+        <div className="w-[100%] md:w-[50%] flex justify-center items-center md:justify-end md:items-end mt-1 md:mt-0 space-x-3">
           <a
             href="https://github.com/ImethP2"
             target="_blank"
@@ -34,11 +34,11 @@ function Projects() {
             <img
               src={LinkedIn}
               alt="LinkedIn"
-              className="w-8 h-8 md:w-8 md:h-8"
+              className="w-6 h-6 md:w-8 md:h-8"
             />
           </a>
           <a href="mailto:imethp2@gmail.com">
-            <img src={Gmail} alt="Gmail" className="w-8 h-8 md:w-8 md:h-8" />
+            <img src={Gmail} alt="Gmail" className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a
             href="https://wa.me/message/TQ32HIJSXFCBN1"
@@ -48,7 +48,7 @@ function Projects() {
             <img
               src={Whatsapp}
               alt="LinkedIn"
-              className="w-8 h-8 md:w-8 md:h-8"
+              className="w-6 h-6 md:w-8 md:h-8"
             />
           </a>
         </div>

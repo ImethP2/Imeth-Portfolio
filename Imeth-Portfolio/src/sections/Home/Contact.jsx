@@ -27,7 +27,7 @@ function Contact() {
       <div
         className="w-full flex flex-col md:flex-row justify-between px-8 md:px-16 mt-8 md:mt-16"
         data-aos="fade-right"
-        data-aos-duration="1500"
+        data-aos-duration="2000"
       >
         <div className="w-full flex flex-col md:flex-row items-center md:items-start">
           <div className="w-[50%] md:w-[7%] mt-8 md:mt-6 flex justify-center md:justify-start">
