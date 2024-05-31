@@ -49,7 +49,7 @@ const dummyProjects = [
     id: 5,
     title: "Theatre management System",
     description:
-      "Using this system user can sucsessfully do these operations, see the available seats, choose ticket type, book seats, cancel booking.",
+      "Using this system user can sucsessfully do these operations, see the available seats, choose ticket type, book seats, cancel booking.<br><br> Tech Stack: Java",
     language: "Java",
     image: "/src/assets/Theatre.svg",
     github: "https://github.com/ImethP2/theater-management-system",
