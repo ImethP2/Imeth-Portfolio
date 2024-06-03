@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import About1 from "/src/assets/AboutMe1.png";
 import About2 from "/src/assets/EvonsysQA.svg"; // Ensure you have different images
-import About3 from "/src/assets/AboutMe1.png"; // Ensure you have different images
+import About3 from "/src/assets/Certificate.jpg"; // Ensure you have different images
 import Skills from "/src/assets/Skills.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";

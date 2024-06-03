@@ -13,7 +13,7 @@ function Contact() {
   }, []);
 
   return (
-    <div className="relative w-full pt-15 md:min-w-[945px] flex flex-col items-center text-white pt-[3%]">
+    <div className="relative w-full pt-15 md:min-w-[945px] flex flex-col items-center text-white pt-[3%]" id="Contact">
       {/* Row 1: Heading */}
       <div
         className="w-full flex flex-col items-start px-8 md:px-16 pt-8 md:pt-16"

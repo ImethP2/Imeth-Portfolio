@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Navbar from "../sections/navbar";
+import Navbar from "../sections/NavbarProjectsPage";
+// import Navbar from "../sections/navbar";
 import Footer from "../sections/Footer";
 
 const dummyProjects = [
@@ -11,7 +12,7 @@ const dummyProjects = [
     Front-end - React JS, Tailwind CSS, Back-end - NodeJS<br>
     API development - ExpressJS<br>
     Database - MongoDB<br>
-    Authentication methods - Clerk component<br><br>
+     Authentication methods - Clerk component<br><br>
     Built a website where rural schools can send seminar requests to the organization. When the organization accepted the request, it will redirect to volunteers.<br><br>
     Skills: Software Development · Teamwork · Agile Methodologies · Software Testing · React.js · Tailwind CSS · MongoDB · Front-End Development · Web Development · Git · Databases`,
     language: "React",
